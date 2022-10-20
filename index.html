@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="card.png" class="card-image" alt="">
+            <div class="card-text card-name-text">XXXXX XXXXX</div>
+            <div class="card-text card-number-text">0000-0000-0000-0000</div>
+            <div class="card-text card-expiration-text">xx/xx</div>
+            <div class="card-text card-cvv">CVV: <span class="card-cvv-text">xxx</span></div>
+        </div>
+        <div class="card-form-wrapper">
+            <form action="" class="card-form">
+                <div class="name">
+                    <input type="text" class="name-input" placeholder="Full Name">
+                    <small class="error name-error"></small>
+                </div>
+                <div class="card-number">
+                    <input type="text" class="number-input" placeholder="Card Number" maxlength="19">
+                    <small class="error card-number-error"></small>
+                </div>
+                <div class="expiration">
+                    <input type="text" class="expiration-input" placeholder="Expiration" maxlength="5">
+                    <small class="error expiration-error"></small>
+                </div>
+                <div class="cvv">
+                    <input type="text" class="cvv-input" placeholder="CVV" maxlength="3">
+                    <small class="error cvv-error"></small>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
